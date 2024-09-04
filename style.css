@@ -94,8 +94,15 @@ main {
 	padding: 1rem;
 }
 
+.card__big-quote {
+	font-size: 2rem;
+	line-height: 2.4rem;
+	margin-block: 1rem;
+}
+
 .card__small-quote {
 	font-weight: 400;
+	margin: 0;
 }
 
 /*** Card BG Colors ***/
