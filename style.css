@@ -54,7 +54,7 @@ main {
 .card-quote-bg {
 	background-image: url('./images/bg-pattern-quotation.svg');
 	background-repeat: no-repeat;
-	background-position: 50%;
+	background-position: 80% 0%;
 }
 
 .card__header {
