@@ -45,6 +45,15 @@ main {
 
 /*** Card ***/
 
+.card__header {
+	display: flex;
+	gap: 1rem;
+}
+
+.card__header__avatar > img {
+	border-radius: 100%;
+}
+
 .card__header__details {
 	display: flex;
 	flex-direction: column;
