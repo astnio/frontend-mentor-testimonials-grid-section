@@ -11,19 +11,58 @@
 }
 
 :root {
-	--moderate-violet: hsl(263, 55%, 52%);
-	--very-dark-grayish-blue: hsl(217, 19%, 35%);
-	--very-dark-blackish-blue: hsl(219, 29%, 14%);
-	--white: hsl(0, 0%, 100%);
+	--clr-moderate-violet: hsl(263, 55%, 52%);
+	--clr-very-dark-grayish-blue: hsl(217, 19%, 35%);
+	--clr-very-dark-blackish-blue: hsl(219, 29%, 14%);
+	--clr-white: hsl(0, 0%, 100%);
 
-	--light-gray: hsl(0, 0%, 81%);
-	--light-grayish-blue: hsl(210, 46%, 95%);
+	--clr-light-gray: hsl(0, 0%, 81%);
+	--clr-light-grayish-blue: hsl(210, 46%, 95%);
 
 	font-size: 13px;
 }
 
 body {
 	font-family: 'Barlow Semi Condensed', sans-serif;
+	background-color: var(--clr-light-grayish-blue);
+}
+
+main {
+	margin: 1rem;
+}
+
+.grid {
+	display: grid;
+	gap: 1rem;
+}
+
+/*** Card ***/
+
+.card {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+/*** Card BG Colors ***/
+
+.bg-clr-violet {
+	background-color: var(--clr-moderate-violet);
+	color: var(--clr-white);
+}
+
+.bg-clr-white {
+	background-color: var(--clr-white);
+	color: var(--clr-very-dark-grayish-blue);
+}
+
+.bg-clr-black {
+	background-color: var(--clr-very-dark-blackish-blue);
+	color: var(--clr-white);
+}
+
+.bg-clr-grey {
+	background-color: var(--clr-very-dark-grayish-blue);
+	color: var(--clr-white);
 }
 
 .attribution {
