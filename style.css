@@ -46,6 +46,17 @@ main {
 
 /*** Card ***/
 
+.card {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.card-quote-bg {
+	background-image: url('./images/bg-pattern-quotation.svg');
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
 .card__header {
 	display: flex;
 	gap: 1rem;
@@ -53,7 +64,6 @@ main {
 
 .card__header__avatar > img {
 	border-radius: 100%;
-	/* border: 3px solid; */
 	border-style: solid;
 	border-width: 3px;
 }
@@ -87,11 +97,6 @@ main {
 .card__header__details__occupation {
 	font-weight: 400;
 	margin-top: 0.7rem;
-}
-
-.card {
-	border-radius: 10px;
-	padding: 1rem;
 }
 
 .card__big-quote {
