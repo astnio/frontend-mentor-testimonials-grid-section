@@ -17,6 +17,7 @@
 }
 
 :root {
+	--clr-lighter-violet: hsl(263, 72%, 67%);
 	--clr-moderate-violet: hsl(263, 55%, 52%);
 	--clr-very-dark-grayish-blue: hsl(217, 19%, 35%);
 	--clr-very-dark-blackish-blue: hsl(219, 29%, 14%);
@@ -52,7 +53,25 @@ main {
 
 .card__header__avatar > img {
 	border-radius: 100%;
+	/* border: 3px solid; */
+	border-style: solid;
+	border-width: 3px;
 }
+
+/*** Card Avatar Border Colors ***/
+.avatar-border-violet {
+	border-color: var(--clr-lighter-violet);
+}
+
+.avatar-border-white {
+	border-color: var(--clr-white);
+}
+
+.avatar-border-grey {
+	border-color: var(--clr-light-gray);
+}
+
+/*** ************************ ***/
 
 .card__header__details {
 	display: flex;
